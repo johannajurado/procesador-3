@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/memoriaInstrucciones is now defined in a different file.  It was defined in "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd", and is now defined in "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd".
+WARNING:HDLParsers:3607 - Unit work/memoriaInstrucciones/Behavioral is now defined in a different file.  It was defined in "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd", and is now defined in "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd".
+Compiling vhdl file "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd" in Library work.
+Entity <memoriainstrucciones> compiled.
+Entity <memoriainstrucciones> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.46 secs
+ 
+--> 
+
+Total memory usage is 166040 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

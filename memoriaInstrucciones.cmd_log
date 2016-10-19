@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/memoriaInstrucciones.vhi -module memoriaInstrucciones -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work memoriaInstrucciones.vhd 

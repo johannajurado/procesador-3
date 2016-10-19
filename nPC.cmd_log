@@ -1,0 +1,3 @@
+vhdtdtfi -lib work nPC.vhd -prj procesador_aleja -o nPC.spl -module nPC -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e nPC.spl {E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/nPC.sym} 
+vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/nPC.vhi -module nPC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work nPC.vhd 

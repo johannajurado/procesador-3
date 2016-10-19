@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_isim_beh.exe" -prj "D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_beh.prj" "work.PSRModifier_tb" 

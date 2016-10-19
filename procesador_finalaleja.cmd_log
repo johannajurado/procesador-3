@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/procesador_finalaleja.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "procesador_finalaleja.ngc" procesador_finalaleja.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o procesador_finalaleja_map.ncd procesador_finalaleja.ngd procesador_finalaleja.pcf 
+par -w -intstyle ise -ol high -t 1 procesador_finalaleja_map.ncd procesador_finalaleja.ncd procesador_finalaleja.pcf 
+xst -intstyle ise -ifn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/procesador_finalaleja.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/procesador_finalaleja.xst" -ofn "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/procesador_finalaleja.syr" 

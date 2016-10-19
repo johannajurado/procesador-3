@@ -1,0 +1,2 @@
+vhdl work "nPC.vhd"
+vhdl work "nPC_test.vhd"

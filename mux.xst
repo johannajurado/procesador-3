@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/xst"
+elaborate
+-ifn mux.prj
+-ifmt mixed

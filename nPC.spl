@@ -1,0 +1,7 @@
+[Inputs]
+clk
+Rst
+=actual[31:0]=
+[Outputs]
+=salida_nPC[31:0]=
+[BiDir]
