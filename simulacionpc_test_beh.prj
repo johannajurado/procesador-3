@@ -1,0 +1,2 @@
+vhdl work "pc.vhd"
+vhdl work "simulacionpc_test.vhd"

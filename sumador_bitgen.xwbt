@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\electronica\proyectos y trabajos de la utp\sistemas digitalesIII\programas_xiling\procesador\procesador_aleja\procesador_aleja\sumador.ncd
+OUTFILE=E:\electronica\proyectos y trabajos de la utp\sistemas digitalesIII\programas_xiling\procesador\procesador_aleja\procesador_aleja\sumador.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=E:\electronica\proyectos y trabajos de la utp\sistemas digitalesIII\programas_xiling\procesador\procesador_aleja\procesador_aleja
+LICENSE=WebPack
+USER_INFO=211012147_0_0_351

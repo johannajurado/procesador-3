@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/sumador.xst" -ofn "E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/sumador.syr" 
+netgen -intstyle ise -ar Structure -tm sumador -w -dir netgen/synthesis -ofmt vhdl -sim sumador.ngc sumador_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "sumador.ngc" sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+bitgen -intstyle ise -f sumador.ut sumador.ncd 
+vhdtdtfi -lib work sumador.vhd -prj procesador_aleja -o sumador.spl -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sumador.spl {E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/sumador.sym} 
+xst -intstyle ise -ifn "E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/sumador.xst" -ofn "E:/electronica/proyectos y trabajos de la utp/sistemas digitalesIII/programas_xiling/procesador/procesador_aleja/procesador_aleja/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "sumador.ngc" sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -t 1 sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+bitgen -intstyle ise -f sumador.ut sumador.ncd 
+vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/sumador.vhi -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumador.vhd 
+vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/sumador.vhi -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumador.vhd 

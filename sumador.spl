@@ -1,0 +1,5 @@
+[Inputs]
+=entrada[7:0]=
+[Outputs]
+=salida[7:0]=
+[BiDir]

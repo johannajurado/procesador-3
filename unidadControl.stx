@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Parameter xsthdpdir set to D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/unidadControl is now defined in a different file.  It was defined in "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/unidadControl.vhd", and is now defined in "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/unidadControl.vhd".
+WARNING:HDLParsers:3607 - Unit work/unidadControl/Behavioral is now defined in a different file.  It was defined in "C:/Users/Juan/Desktop/procesador 2/procesador 2 aleja/procesador_aleja/unidadControl.vhd", and is now defined in "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/unidadControl.vhd".
+Compiling vhdl file "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/unidadControl.vhd" in Library work.
+Entity <unidadcontrol> compiled.
+Entity <unidadcontrol> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> 
+
+Total memory usage is 165784 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

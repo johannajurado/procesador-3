@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/utp.CRIE/Desktop/procesador_aleja/procesador_aleja/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/utp.CRIE/Desktop/procesador_aleja/procesador_aleja/xst"
+elaborate
+-ifn sumador.prj
+-ifmt mixed

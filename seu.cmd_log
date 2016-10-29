@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador_aleja -o "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/seu.vhi" -module seu -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work seu.vhd 
