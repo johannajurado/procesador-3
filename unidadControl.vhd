@@ -33,8 +33,8 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity unidadControl is
-    Port ( op : in  STD_LOGIC_VECTOR(1 downto 0);
-           op3 : in  STD_LOGIC_VECTOR(5 downto 0);
+    Port ( op : in  STD_LOGIC_VECTOR(1 downto 0);--formato
+           op3 : in  STD_LOGIC_VECTOR(5 downto 0);--operacion
            salida_UC : out  STD_LOGIC_VECTOR(5 downto 0));
 end unidadControl;
 
@@ -43,7 +43,7 @@ architecture Behavioral of unidadControl is
 begin
     process(op,op3)
   begin
-if (op="10")then
+if (op="10")then  --formato3
 			       
 					 
 					 case op3 is 

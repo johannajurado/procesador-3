@@ -15,3 +15,5 @@ trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sum
 bitgen -intstyle ise -f sumador.ut sumador.ncd 
 vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/sumador.vhi -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumador.vhd 
 vhdtdtfi -prj procesador_aleja -o C:/Users/Administrador/Desktop/procesador_aleja/procesador_aleja/sumador.vhi -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work sumador.vhd 
+vhdtdtfi -lib work sumador.vhd -prj procesador_aleja -o sumador.spl -module sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sumador.spl {D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/sumador.sym} 

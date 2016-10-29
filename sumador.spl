@@ -1,5 +1,6 @@
 [Inputs]
-=entrada[7:0]=
+=entrada_sum1[31:0]=
+=entrada_sum2[31:0]=
 [Outputs]
-=salida[7:0]=
+=salida_sumador[31:0]=
 [BiDir]
