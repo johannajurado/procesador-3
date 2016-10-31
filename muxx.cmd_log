@@ -1,1 +1,3 @@
 vhdtdtfi -prj procesador_aleja -o "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/muxx.vhi" -module muxx -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work muxx.vhd 
+vhdtdtfi -lib work muxx.vhd -prj procesador_aleja -o muxx.spl -module muxx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e muxx.spl {D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/muxx.sym} 

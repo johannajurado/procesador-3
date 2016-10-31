@@ -1,18 +1,18 @@
 ISim log file
-Running: D:\Desktop\procesador 2 final alejandra\procesador 2 aleja\procesador_aleja\PSRModifier_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_isim_beh.wdb 
-ISim P.20131013 (signature 0x8ef4fb42)
+Running: D:\Desktop\procesador 3\procesador 2 final alejandra\procesador 2 aleja\procesador_aleja\test_procesadorfinal_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
 INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
 INFO:Security:68 - For more information or for assistance in obtaining 
  a license, please run the Xilinx License Configuration Manager
        (xlcm or "Manage Xilinx Licenses".)
-INFO:Security:68a - user is JUNIOR, on host JUNIOR-PC.
+INFO:Security:68a - user is Juan Camilo LDS, on host JUANCAMILOLDS.
 ERROR:Security:14 - No feature was available for 'ISIM'.
 
 No such feature exists.
 Feature:       ISIM
-License path:  C:/.Xilinx\Xilinx.lic;C:\Users\JUNIOR\Desktop\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Users\JUNIOR\Desktop\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Users\JUNIOR\Desktop\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
+License path:  C:/.Xilinx\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\Xilinx.lic;C:\Xilinx\14.7\ISE_DS\ISE\/coregen/core_licenses\XilinxFree.lic;C:\Xilinx\14.7\ISE_DS\EDK/data/core_licenses\Xilinx.lic;
 FLEXnet Licensing error:-5,357
 For further information, refer to the FLEXnet Licensing documentation,
 available at "www.flexerasoftware.com".
@@ -25,4 +25,13 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_sumador/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_memoriaInstrucciones/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process memoriaInstrucciones.vhd:62 
+ 
+INFO: Simulator is stopped.

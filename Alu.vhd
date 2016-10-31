@@ -35,6 +35,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity Alu is
     Port ( entrada_suma1 : in  STD_LOGIC_VECTOR (31 downto 0);
            entrada_sum2 : in  STD_LOGIC_VECTOR (31 downto 0);
+			  Carry : in STD_LOGIC;
            alu_op : in  STD_LOGIC_VECTOR (5 downto 0);
            salida_ALU : out  STD_LOGIC_VECTOR (31 downto 0));
 end Alu;

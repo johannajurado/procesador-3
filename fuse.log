@@ -1,21 +1,43 @@
-Running: C:\Users\JUNIOR\Desktop\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_isim_beh.exe -prj D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_beh.prj work.PSRModifier_tb 
-ISim P.20131013 (signature 0x8ef4fb42)
-Number of CPUs detected in this system: 2
-Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal_isim_beh.exe -prj D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal_beh.prj work.test_procesadorfinal 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/psr_modifier.vhd" into library work
-Parsing VHDL file "D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_psrmodifier.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/unidadControl.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/sumador.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/seu.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/psr_modifier.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/psr.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/nPC.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/muxx.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/Alu.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" into library work
+Parsing VHDL file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 102056 KB
-Fuse CPU Usage: 1138 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity PSRModifier [psrmodifier_default]
-Compiling architecture behavior of entity psrmodifier_tb
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture behavioral of entity sumador [sumador_default]
+Compiling architecture behavioral of entity nPC [npc_default]
+Compiling architecture behavioral of entity memoriaInstrucciones [memoriainstrucciones_default]
+Compiling architecture behavioral of entity unidadControl [unidadcontrol_default]
+Compiling architecture behavioral of entity registroArchivo_RF [registroarchivo_rf_default]
+Compiling architecture arq_mux of entity muxx [muxx_default]
+Compiling architecture arq_seu of entity seu [seu_default]
+Compiling architecture behavioral of entity PSR_Modifier [psr_modifier_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture arq_procesador of entity procesador_finalaleja [procesador_finalaleja_default]
+Compiling architecture behavior of entity test_procesadorfinal
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 5 VHDL Units
-Built simulation executable D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSRModifier_tb_isim_beh.exe
-Fuse Memory Usage: 111000 KB
-Fuse CPU Usage: 1231 ms
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 29 VHDL Units
+Built simulation executable D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal_isim_beh.exe
+Fuse Memory Usage: 37792 KB
+Fuse CPU Usage: 4867 ms

@@ -1,0 +1,7 @@
+[Inputs]
+i
+=dato_seu[31:0]=
+=crs2[31:0]=
+[Outputs]
+=salida_mux[31:0]=
+[BiDir]
