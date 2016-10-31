@@ -1,0 +1,16 @@
+int a = 5;
+int b = -7;
+int c;
+
+c = a + b;
+
+return c;
+
+mov 5 %L0
+mov -7 %L1;
+
+ADD %L0 %L1 %L2
+MOV %L2 %O0
+
+
+

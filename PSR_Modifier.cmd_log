@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador_aleja -o "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/PSR_Modifier.vhi" -module PSR_Modifier -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work psr_modifier.vhd 
