@@ -1,0 +1,55 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/sumador.vhd" in Library work.
+Architecture behavioral of Entity sumador is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/nPC.vhd" in Library work.
+Architecture behavioral of Entity npc is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd" in Library work.
+Architecture behavioral of Entity memoriainstrucciones is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/unidadControl.vhd" in Library work.
+Architecture behavioral of Entity unidadcontrol is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" in Library work.
+Architecture behavioral of Entity registroarchivo_rf is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/muxx.vhd" in Library work.
+Architecture arq_mux of Entity muxx is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/seu.vhd" in Library work.
+Architecture arq_seu of Entity seu is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/psr_modifier.vhd" in Library work.
+Architecture behavioral of Entity psr_modifier is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/psr.vhd" in Library work.
+Architecture behavioral of Entity psr is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/Alu.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "D:/Desktop/procesador 3/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" in Library work.
+Entity <procesador_finalaleja> compiled.
+Entity <procesador_finalaleja> (Architecture <arq_procesador>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> 
+
+Total memory usage is 215340 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
